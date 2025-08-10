@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <section>
+        <!--Color blobs-->
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+
+        <div class="box">
+            <!--Floating Squares-->
+            <div class="square one"></div>
+            <div class="square two"></div>
+            <div class="square three"></div>
+            <div class="square four"></div>
+            <div class="square five"></div>
+
+            <div class="form">
+                <h2>Sign up</h2>
+                <form id="signupForm">
+                    <div class="inputBox">
+                        <input type="text" id="newUsername" placeholder="Username" required/>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" id="newPassword" placeholder="Password" required/>
+                    </div>
+                    <button type="submit" id="signupBtn">Create Account</button>
+                    <p class="forget">Return to Login Form: <a href="index.html"> Return</a></p>
+                </form>
+                <div id="signupMessage"></div>
+            </div>
+        </div>
+    </section>
+    <script src="signup.js"></script>
+</body>
+</html>
