@@ -10,7 +10,6 @@ A simple login, signup, and password reset system built with **HTML, CSS, JavaSc
 * [Features](#features)
 * [Installation & Setup](#installation--setup)
 * [Demo](#demo)
-* [Screenshots](#screenshots)
 * [Tech Stack](#tech-stack)
 * [Notes](#notes)
 * [License](#license)
@@ -35,6 +34,7 @@ login-project/
 * JSON file storage (no database needed)
 * Secure backend handling for authentication requests
 * Frontend demo UI that works without backend (static only)
+* Responsive design supporting both mobile and desktop view
 
 ---
 
@@ -65,25 +65,13 @@ Simply open `login-frontend/index.html` in your browser. You can also serve it v
 
 ## Demo
 
-You can preview the UI only without running the backend by opening:
+### Live Preview (Frontend Only)
 
-```
-login-frontend/index.html
-```
+You can view the static UI here:
 
-Note: Login, signup, and reset password functions will not work unless the backend server is running.
+**[https://ceyeb3r.github.io/login-project/](https://ceyeb3r.github.io/login-project/)**
 
----
-
-## Screenshots
-
-### Desktop View
-
-![Desktop UI](login-frontend/screenshots/desktop-screenshot.png)
-
-### Mobile View
-
-![Mobile UI](login-frontend/screenshots/mobile-screenshot.png)
+> Note: Login, signup, and reset password functions will not work unless the backend server is running locally or deployed.
 
 ---
 
