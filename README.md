@@ -79,11 +79,11 @@ Note: Login, signup, and reset password functions will not work unless the backe
 
 ### Desktop View
 
-![Desktop UI](login-frontend/screenshots/desktop-login.png)
+![Desktop UI](login-frontend/screenshots/desktop-screenshot.png)
 
 ### Mobile View
 
-![Mobile UI](login-frontend/screenshots/mobile-login.png)
+![Mobile UI](login-frontend/screenshots/mobile-screenshot.png)
 
 ---
 
