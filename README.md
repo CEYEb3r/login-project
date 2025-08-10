@@ -72,6 +72,7 @@ You can view the static UI here:
 **[https://ceyeb3r.github.io/login-project/](https://ceyeb3r.github.io/login-project/)**
 
 > Note: Login, signup, and reset password functions will not work unless the backend server is running locally or deployed.
+> Colors may not display correctly in Brave. For the best results, open in Chrome or Firefox.
 
 ---
 
