@@ -4,6 +4,17 @@ A simple login, signup, and password reset system built with **HTML, CSS, JavaSc
 
 ---
 
+## Table of Contents
+
+* [Project Structure](#project-structure)
+* [Features](#features)
+* [Installation & Setup](#installation--setup)
+* [Demo](#demo)
+* [Screenshots](#screenshots)
+* [Tech Stack](#tech-stack)
+* [Notes](#notes)
+* [License](#license)
+
 ## Project Structure
 
 ```
@@ -54,13 +65,25 @@ Simply open `login-frontend/index.html` in your browser. You can also serve it v
 
 ## Demo
 
-You can preview the **UI only** without running the backend by opening:
+You can preview the UI only without running the backend by opening:
 
 ```
 login-frontend/index.html
 ```
 
-**Note:** Login, signup, and reset password functions will not work unless the backend server is running.
+Note: Login, signup, and reset password functions will not work unless the backend server is running.
+
+---
+
+## Screenshots
+
+### Desktop View
+
+![Desktop UI](login-frontend/screenshots/desktop-login.png)
+
+### Mobile View
+
+![Mobile UI](login-frontend/screenshots/mobile-login.png)
 
 ---
 
