@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glassmorphism Login Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head> 
+<body>
+  <section>
+    <!-- Color blobs -->
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+
+    <div class="box">
+      <!-- Floating Squares-->
+      <div class="square one"></div>
+      <div class="square two"></div>
+      <div class="square three"></div>
+      <div class="square four"></div>
+      <div class="square five"></div>
+
+      <div class="form">
+        <h2>Login Form</h2>
+        <form id="loginForm">
+          <div class="inputBox">
+            <input type="text" id="username" placeholder="Username" required />
+          </div>
+          <div class="inputBox">
+            <input type="password" id="password" placeholder="Password" required />
+          </div>
+          <button type="submit" id="loginbtn">Login</button>
+          <p class="forget">Forgot password? <a href="reset-password.html">Click here</a></p>
+          <p class="forget">Don't have an account? <a href="signup.html">Sign up</a></p>
+        </form>
+        <div id="message"></div>
+      </div>
+    </div>
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>
